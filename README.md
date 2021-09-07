@@ -3,9 +3,17 @@ This module enables custom signup, login and passwordless endpoints to interact 
 
 Note that this module currently only allows you to manage the accounts of your customers and **not your employees'**.
 
-## Installation
-1. Download the [latest release ZIP](https://github.com/arengu/ps_arengu_auth/releases/latest) file and **extract** it inside the `modules` directory of an existing PrestaShop installation. You should end with a file structure where you can locate the `ps_arengu_auth.php` file **precisely** in `modules/ps_arengu_auth/ps_arengu_auth.php`. Otherwise, the module will not be detected by PrestaShop.
-2. Go to the admin panel and install from the module catalog, look in the "Other" category.
+## Simple installation
+1. Download the [latest release ZIP file](https://github.com/arengu/ps_arengu_auth/releases/latest).
+2. Upload it to your admin panel in **Modules > Module Manager > Upload a module**.
+3. You can now find **Arengu Auth** module in the "Other" category.
+4. Click "Configure" to get your API key.
+
+## Manual installation
+1. Download the [latest release ZIP file](https://github.com/arengu/ps_arengu_auth/releases/latest) and **extract** it inside the `modules` directory of an existing PrestaShop installation. You should end with a file structure where you can locate the `ps_arengu_auth.php` file **precisely** in `modules/ps_arengu_auth/ps_arengu_auth.php`. Otherwise, the module will not be detected by PrestaShop.
+2. Go to the admin panel, **Modules > Module Manager**, and find "Arengu Auth" in the "Other" category.
+3. Click "Install".
+4. Click "Configure" to get your API key.
 
 ## Available endpoints
 
