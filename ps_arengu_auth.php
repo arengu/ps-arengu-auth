@@ -27,7 +27,7 @@ class ps_arengu_auth extends Module
         $this->version = '{{ VERSION }}';
         $this->author = 'Arengu';
         $this->need_instance = 0;
-        $this->ps_versions_compliancy = ['min' => '1.7.5.1'];
+        $this->ps_versions_compliancy = ['min' => '1.7.2.0'];
         $this->bootstrap = true;
 
         parent::__construct();
